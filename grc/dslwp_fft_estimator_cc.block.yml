@@ -8,7 +8,7 @@ parameters:
 -   id: fft_size
     label: FFT Size
     dtype: raw
-    hide: ${ 'part' if vlen == 1 else 'none' }
+    hide: ${ 'part' if fft_size == 1 else 'none' }
 -   id: threshold
     label: Threshold
     dtype: float
